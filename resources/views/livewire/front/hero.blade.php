@@ -1,4 +1,4 @@
-    <div>
+    <div data-aos="zoom-in" data-aos-duration="1000">
         <div class="relative overflow-hidden bg-cover bg-no-repeat lg:h-screen "
             style="background-image: url('{{ asset('storage/' . $posts->thumbnail) }}')">
             <a wire:navigate href="/post/{{ $posts->id }}/details">

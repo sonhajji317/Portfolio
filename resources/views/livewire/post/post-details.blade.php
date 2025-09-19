@@ -10,7 +10,8 @@
     <!-- Gambar -->
     <div class="mb-4">
         <img src="{{ asset('storage/' . $thumbnail) }}" alt="{{ $title }}"
-            class="rounded-lg w-full h-56 sm:h-72 md:h-[25rem] lg:h-[29rem] object-cover">
+            class="rounded-lg w-full h-56 sm:h-72 md:h-[25rem] lg:h-[29rem] object-cover" data-aos="zoom-in"
+            data-aos-duration="1000">
     </div>
 
     <!-- Konten -->

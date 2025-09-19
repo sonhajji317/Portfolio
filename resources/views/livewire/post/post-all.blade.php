@@ -19,7 +19,8 @@
                 wire:navigate href="/post/{{ $post->id }}/details">
                 <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
                     <img class="absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl h-70 w-full"
-                        src="{{ asset('storage/' . $post->thumbnail) }}" alt="{{ $post->title }}">
+                        src="{{ asset('storage/' . $post->thumbnail) }}" alt="{{ $post->title }}" data-aos="zoom-in"
+                        data-aos-duration="1000">
                 </div>
 
                 <div class="p-2">
